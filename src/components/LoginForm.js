@@ -131,6 +131,9 @@ const styles= {
   imageStyle: {
     height: 120,
     width: 140
+  },
+  validationStyle: {
+    color: "red"
   }
 };
 
