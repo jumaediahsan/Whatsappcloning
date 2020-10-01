@@ -7,7 +7,7 @@ import reducers from './reducers';
 import AppWithNavigationState from './AppNavigator';
 
 export default class App extends Component {
-  componentWillMount() {
+  componentDidMount() {
     firebase.initializeApp({
       apiKey: 'AIzaSyBPWgayfbyYN5FJD0t1OG9RquSMkH-aGIg',
       authDomain: 'whatsapp-44139.firebaseapp.com',
